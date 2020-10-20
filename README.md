@@ -12,6 +12,6 @@
 
 *Note: test.html file is for **example** only. Make sure you add the JavaScript to your own HTML.*
 
-*Next Update: On scroll effect is to come!*
+*Next Update: **Increased optimization with more flexibility & on scroll effect** are to come!*
 
 ![This is how typeLover.js will make you feel.](https://cdn.pixabay.com/photo/2012/04/11/17/31/vegetables-29063_1280.png)
