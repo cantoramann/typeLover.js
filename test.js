@@ -19,6 +19,6 @@ for (var i = 0; i < animate.length; i++) {
 function delayAnim(i, j, str) {
     setTimeout(function () {
         dictionary[i].object.innerHTML += dictionary[i].text.charAt(j);
-    }, 50 * j);
+    }, dictionary[i].delayTime * j);
 }
 
