@@ -1,2 +1,2 @@
 # typeLover.js
- A very lightweight typing animation library written in VanillaJS
+ A very lighteight library for typing animations, written in pure JavaScript.
