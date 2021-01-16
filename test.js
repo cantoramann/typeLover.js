@@ -1,6 +1,6 @@
 let animate = document.querySelectorAll('.type-lover');
 let dictionary = [];
-for (var i = 0; i < animate.length; i++) {
+for (let i = 0; i < animate.length; i++) {
     dictionary.push({
         text: animate[i].innerHTML,
         delayTime: parseFloat(animate[i].getAttribute("animation-delay")),
@@ -9,7 +9,7 @@ for (var i = 0; i < animate.length; i++) {
     animate[i].innerHTML = "";
 }
 
-for (var i = 0; i < animate.length; i++) {
+for (let i = 0; i < animate.length; i++) {
 
     for (var j = 0; j < dictionary[i].text.length; j++) {
         delayAnim(i, j, dictionary[i].text);
