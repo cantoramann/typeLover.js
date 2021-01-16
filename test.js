@@ -11,7 +11,7 @@ for (let i = 0; i < animate.length; i++) {
 
 for (let i = 0; i < animate.length; i++) {
 
-    for (var j = 0; j < dictionary[i].text.length; j++) {
+    for (let j = 0; j < dictionary[i].text.length; j++) {
         delayAnim(i, j, dictionary[i].text);
     }
 }
